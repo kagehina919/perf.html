@@ -39,6 +39,14 @@ class ProfileViewer extends PureComponent<Props> {
     return (
       <div className="profileViewer">
         <div className="profileViewerTopBar">
+          <ul className="skip-links">
+            <li>
+              <a href="#timeline">Skip to timeline</a>
+            </li>
+            <li>
+              <a href="#details">Skip to details</a>
+            </li>
+          </ul>
           {hasZipFile ? (
             <button
               type="button"
@@ -59,8 +67,8 @@ class ProfileViewer extends PureComponent<Props> {
           <div className="profileViewerSpacer" />
           <MenuButtons />
         </div>
-        <Timeline />
-        <DetailsContainer />
+        <Timeline className="timeline" />
+        <DetailsContainer className="details" />
         <SymbolicationStatusOverlay />
       </div>
     );
