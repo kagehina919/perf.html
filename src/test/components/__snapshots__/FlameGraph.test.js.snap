@@ -95,11 +95,12 @@ exports[`renders FlameGraph correctly 1`] = `
       data-index="0"
       title="Complete \\"Empty\\""
     >
-      <span
+      <button
         class="filterNavigatorBarItemContent"
+        type="button"
       >
         Complete "Empty"
-      </span>
+      </button>
     </li>
   </ol>
   <div
@@ -589,11 +590,12 @@ exports[`renders a message instead of FlameGraph when call stack is inverted 1`]
       data-index="0"
       title="Complete \\"Empty\\""
     >
-      <span
+      <button
         class="filterNavigatorBarItemContent"
+        type="button"
       >
         Complete "Empty"
-      </span>
+      </button>
     </li>
   </ol>
   <div
