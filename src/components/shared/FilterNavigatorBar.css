@@ -42,12 +42,16 @@
   /* The 6px are used by the box-shadow when the button receives focus */
   height: calc(100% - 6px);
   padding: 0 6px 0 6px;
-  margin: 0;
+  margin: auto auto;
   border: none;
   background: none;
   color: var(--blue-60);
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.filterNavigatorBarItemContent:active {
+  color: black;
 }
 
 .filterNavigatorBarLeafItem {
